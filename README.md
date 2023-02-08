@@ -1,10 +1,17 @@
-# Favorite Holiday 
+# Alignment
 
-### Create a webpage that describes your favorite holiday destination. The webpage should include the following elements:
+### Create a HTML webpage that describes the use of HTML table. The webpage should include the following elements:
 
-- A heading (h1) with the name of the holiday destination
-- A paragraph that provides a brief overview of the destination
-- A line break between the heading and the paragraph
-- An ordered list that lists the top 5 attractions in the destination
-- An unordered list that lists the must-try foods in the destination
-- Text within the ordered and unordered lists should be bold (strong or b) and/or italicized (em or i) to emphasize important information.
+- Create a table that has 3 rows and 3 columns. The middle and rightmost column of each row must have `.center` and `.right` as their class.
+- A second table to illustrate the use of colspan and rowspan. Create a table with 6 rows and 6 columns. All the columns of 1st row should be wrapped in a single cell. 
+- A third table to add the image within the table. 
+
+Your Webpage should look somewhat like this:
+
+![image](https://user-images.githubusercontent.com/78348500/217435540-555a8eb0-79a6-4590-90c0-28b620341d42.png)
+
+### Instructions
+
+- Id for the first table should be "table-1". Id for first, second and last cell of table 1 should be `t11`, `t12`, `t13`.
+- Id for the second table shoulde be "table-2". Id for first cell of table 2 should be `t21`.
+- Id for third table should be "table-3". Id for the cell that contains the image should be `t-image`.
